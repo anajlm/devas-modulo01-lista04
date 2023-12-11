@@ -10,7 +10,7 @@ public class Q1_Concatenacao {
             System.out.print(o + " ");
         }
     }
-    
+
     public static int[] concatenaDoisArrays(int[] A, int[] B){
 
         int[] output = new int[2*A.length];

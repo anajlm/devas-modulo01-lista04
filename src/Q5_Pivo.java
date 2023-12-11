@@ -3,10 +3,10 @@ public class Q5_Pivo {
     public static void main(String[] args) {
         int[] array = new int[]{1, 1, 1, 1, 1};
 
-        System.out.println(calculaPivo(array));
+        System.out.println(findPivotIndex(array));
     }
 
-    public static int calculaPivo(int[] array){
+    public static int findPivotIndex(int[] array){
 
         for(int i=0; i<array.length; i++){
 
