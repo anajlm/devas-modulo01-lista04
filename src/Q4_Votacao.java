@@ -54,7 +54,10 @@ public class Q4_Votacao {
             }
 
         }
-        System.out.printf("O vencedor é %s, com %d votos. %n", vencedor, maxVotos);
+
+        double porcentagem = (maxVotos/10.0) * 100.0;
+
+        System.out.printf("O vencedor é %s, com %.2f%% dos votos. %n", vencedor, porcentagem);
 
 
     }

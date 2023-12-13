@@ -3,7 +3,7 @@ public class Q5_Pivo {
     public static void main(String[] args) {
         int[] array = new int[]{1, 1, 1, 1, 1};
 
-        System.out.println(findPivotIndex(array));
+        System.out.println("Índice Pivot = " + findPivotIndex(array));
     }
 
     public static int findPivotIndex(int[] array){
